@@ -26,7 +26,10 @@ Multistaging with Docker to reduce complexity, size, and build time
 &nbsp;  
 &nbsp; 
 ### Image Size = Base Image + Essential Files + *Cruft* (a.k.a. random, unneeded files)
-&nbsp;  
+<img src="/Docs/cruft.kpg" width="400">  
+
+[photo cred](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7/)  
+  
 ### A large docker image can create issues through:
 #### 1. Increased time of image building, which can be detrimental to continuous integration and continuous deployment
 #### 2. 
