@@ -3,6 +3,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 <img src="/Docs/multistage.jpg" width="600">  
 
+[photo cred](https://www.youtube.com/watch?v=V9egJMknKtM)
 &nbsp;  
 
 ### [1.  A brief intro on Docker and Image Size](#anchor1)
