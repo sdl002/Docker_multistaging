@@ -44,4 +44,13 @@ Multistaging with Docker to reduce complexity, size, and build time
 * Use .dockerignore
 * Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
 * Remove unnecessary dependencies with -–no-install-recommends flag
+* Use multi-stage
+
+# 3.  Docker multi-staging to the rescue (maybe)
+
+Docker image layers are sort of like git commits, they store the difference between the previous and current version. 
+
+However, layers use space, and the more layers that you have, the heavier your final image will be. Git repositories are similar,as the he size of your repo increases with the number of layers (Git has to store all the changes between commits).
+
+
 
