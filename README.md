@@ -15,8 +15,7 @@ Multistaging with Docker to reduce complexity, size, and build time
  
 
 <a name="anchor1"></a>
-# 1. A brief intro on Docker Size
-&nbsp;    
+# 1. A brief intro on Docker Size 
 
 <img src="/Docs/docker_small.png" width="400">
 
