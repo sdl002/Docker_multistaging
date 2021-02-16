@@ -26,6 +26,9 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
+
 * smaller base image
 * fewer layers
+* Use .dockerignore
+* Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y install to clean up after installing packages
 
