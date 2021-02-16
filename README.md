@@ -17,6 +17,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 <a name="anchor1"></a>
 # 1. A brief intro on Docker and Image Size 
 <img src="/Docs/docker_small.png" width="400">  
+[photo cred](https://learnk8s.io/blog/smaller-docker-images/). 
 
 * A docker *image* is the "base" of the docker container. 
 * A docker *image* is created by a *Dockerfile*, which is a set of instructions that are executed to make the docker *image*
