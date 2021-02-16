@@ -1,5 +1,5 @@
 # Docker_multistaging
 Multistaging with Docker to reduce complexity, size, and build time
 
-<img src="/Docs/multistaging.jpg" width="600">  
+<img src="/Docs/multistage.jpg" width="600">  
 
