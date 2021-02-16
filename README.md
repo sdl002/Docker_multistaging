@@ -29,9 +29,9 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 [photo cred](https://slangit.com/meaning/cruft)  
   
-### A large docker image can create issues through:
-#### 1. Increased time of image building, which can be detrimental to continuous integration and continuous deployment
-#### 2. 
+### Reasons you should avoid large Docker images:
+1. Increased time of image building, which can be detrimental to continuous integration and continuous deployment
+2. 
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
