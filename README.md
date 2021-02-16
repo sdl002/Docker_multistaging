@@ -27,6 +27,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
 <img src="/Docs/slim_docker.png" width="400">  
+[photo cred](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7)
 * smaller base image
 * fewer layers
 * Use .dockerignore
