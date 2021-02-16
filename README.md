@@ -21,7 +21,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 * A docker *image* is the "base" of the docker container. 
 * A docker *image* is created by a *Dockerfile*, which is a set of instructions that are executed to make the docker *image*
 
-### Image = Base Image + Essential Files + Cruft (a.k.a. random, unneeded files)
+### Image Size = Base Image + Essential Files + *Cruft* (a.k.a. random, unneeded files)
 
 
 <a name="anchor2"></a>
