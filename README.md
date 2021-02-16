@@ -43,5 +43,6 @@ Multistaging with Docker to reduce complexity, size, and build time
 * smaller base image
 * fewer layers
 * Use .dockerignore
-* Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y install to clean up after installing packages
+* Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
+* Remove unnecessary dependencies with -–no-install-recommends flag
 
