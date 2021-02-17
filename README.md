@@ -103,4 +103,13 @@
 
 # 4. A note on AWS and its lack of cache (by default)
 
-By default, AWS does not utilize cache. There are ways to turn it on (ask Josh :) ), but I have found that with a large build using multistaging can be useful.
+By default, AWS does not utilize cache. There are ways to turn it on (ask Josh :) ), but I have found that with a large build using multistaging can also be useful.
+
+See some options for using cache with AWS:
+
+
+
+See some opt
+
+
+I was able to somewhat circumvent this with multi-staging (my image can still be ) but my buildtime and final image size was reduced by >50%... saving 25 minutes in build time. Which is useful when testing an application.
