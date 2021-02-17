@@ -43,12 +43,20 @@
 
 Real world example of a painfully large Docker Image:
 
-<img src="/Docs/example.png" width="850">  
+<img src="/Docs/example.png" width="1000">  
   
-  
+#### *This is an incredibly large image, one should aim to keep all images <1 GB.*
 
+#### But *WHY* is it so large?
 
-
+#### 1. R - using a Rocker based image is large (I used rocker/verse, which preps for PDF generation, and is HUGE: )
+#### 2. LaTeX - the tex-live-full library is HUGE (4.3 GB of disk space)
+#### 3. Did not clean up while building
+#### 4. Many "FROM" commands
+#### 5. Single stage (did not remove any unneeded artifacts)
+ 
+&nbsp;  
+&nbsp;  
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
@@ -124,6 +132,9 @@ See some options for using cache with AWS (and also probably still check with Jo
 Reference: https://docs.aws.amazon.com/codebuild/latest/userguide/build-caching.html
 &nbsp;
 ### I was able to somewhat circumvent giant image issues by utilzing multi-staging, and the other methods listed above, although my image could defnitely still be further optimizated and could use some more fine tuning. That being said, my build time and final image size was reduced by >50%... saving ~25 minutes in build time. Which is very helpful when testing an application.
+
+Current Dockerfile:
+
 
 &nbsp;
 
