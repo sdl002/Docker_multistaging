@@ -98,6 +98,7 @@
 [photo cred](https://docs.docker.com/develop/develop-images/multistage-build/)
 &nbsp;
 
+#### You can also use external images, and copy "FROM" them into your production image:
 
 
 # 4. A note on AWS and its lack of cache (by default)
