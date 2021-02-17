@@ -82,7 +82,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 &nbsp;  
 
 ### 7. Something I recently started using: *multi-stage*, described a bit more below
-<img src="/Docs/multi_stage.png" width="750">   
+<img src="/Docs/mutli_stage.png" width="750">   
 
 [photo cred](https://aboullaite.me/multi-stage-docker-java/)
 &nbsp;
