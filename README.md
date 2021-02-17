@@ -93,8 +93,10 @@
 #### When building a Docker image, each stage begins with a "FROM" instruction. Your Dockerfile can have multiple "FROM" statements, and you can chose what artifacts pass through to the next stage (removing potential *CRUFT*)
 
 #### When using multi-stage, you can include multiple stages in the same Dockerfile (as shown in the below example from [Docker Docs](https://docs.docker.com/develop/develop-images/multistage-build/))
+<img src="/Docs/docker_docks_mulit.png" width="750">   
 
-
+[photo cred](https://docs.docker.com/develop/develop-images/multistage-build/)
+&nbsp;
 
 
 
