@@ -89,9 +89,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 # 3.  Docker multi-staging to the rescue
 
-Docker image layers are sort of like git commits, they store the difference between the previous and current version. 
-
-However, layers use space, and the more layers that you have, the heavier your final image will be. Git repositories are similar, as the size of your repo increases with the number of layers (Git has to store all the changes between commits).
+When using multi-stage, you can include multiple stages in the same Dockerfile (as shown in the below example from [Docker Docs](https://docs.docker.com/develop/develop-images/multistage-build/))
 
 Each stage begins with a FROM instruction. The required artifact passes to the following stage, leaving behind content that you won’t need in the final image artifact.
 
