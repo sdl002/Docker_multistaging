@@ -8,7 +8,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 ### [1.  A brief intro on Docker and Image Size](#anchor1)
 ### [2.  Ways to reduce the size of a docker image](#anchor2)
-### [3.  Docker multi-staging to the rescue (maybe)](#anchor3)
+### [3.  Docker multi-staging to the rescue](#anchor3)
 ### [4.  A note on AWS and its lack of cache (by default)](#anchor4)
 &nbsp;  
 &nbsp;  
@@ -52,7 +52,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 * Something I recently started using: *multi-stage*, described a bit more below
 
 
-# 3.  Docker multi-staging to the rescue (maybe)
+# 3.  Docker multi-staging to the rescue
 
 Docker image layers are sort of like git commits, they store the difference between the previous and current version. 
 
