@@ -46,9 +46,11 @@ Multistaging with Docker to reduce complexity, size, and build time
 * smaller base image
 * fewer layers (combine commands, reduce use of "RUN")
 <img src="/Docs/example_combine_commands.png" width="600">  
-
+[photo cred](https://www.cloudbees.com/blog/reduce-docker-image-size/)  
 
 * Use .dockerignore
+
+
 * Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
 * Remove unnecessary dependencies with -–no-install-recommends flag
 * Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
