@@ -16,7 +16,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 <a name="anchor1"></a>
 # 1. A brief intro on Docker and Image Size 
-<img src="/Docs/docker_small.png" width="400">  
+<img src="/Docs/docker_small.png" width="500">  
 
 [photo cred](https://learnk8s.io/blog/smaller-docker-images/) 
 
@@ -45,6 +45,9 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 * smaller base image
 * fewer layers (combine commands, reduce use of "RUN")
+<img src="/Docs/example_combine_commands.png" width="450">  
+
+
 * Use .dockerignore
 * Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
 * Remove unnecessary dependencies with -–no-install-recommends flag
