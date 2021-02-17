@@ -36,6 +36,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 3. Large images also including pushing/pulling time (detrimental to continuous integration and continuous development/deployment)
 4. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
 
+&nbsp;  
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
