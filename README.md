@@ -43,7 +43,7 @@
 
 Real world example of a painfully large Docker Image:
 
-<img src="/Docs/example.pdf" width="850">  
+<img src="/Docs/example.png" width="850">  
   
   
 
