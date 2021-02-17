@@ -39,6 +39,14 @@
 4. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
 
 &nbsp;  
+&nbsp;  
+
+Real world example of a painfully large Docker Image:
+
+
+
+
+
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
