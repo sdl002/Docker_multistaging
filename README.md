@@ -109,7 +109,8 @@ By default, AWS does not utilize cache. There are ways to turn it on (ask Josh :
 &nbsp;
 See some options for using cache with AWS:
 <img src="/Docs/cache1.png" width="1100">   
-<img src="/Docs/cache2.png" width="1100">   
+<img src="/Docs/cache2.png" width="1100"> 
+<img src="/Docs/cache3.png" width="1100"> 
 Reference: https://docs.aws.amazon.com/codebuild/latest/userguide/build-caching.html
 &nbsp;
 ### I was able to somewhat circumvent this with multi-staging, and the other methods listed above, (my image can defnitely still be optimized) but my build time and final image size was reduced by >50%... saving 25 minutes in build time. Which is very helpful when testing an application.
