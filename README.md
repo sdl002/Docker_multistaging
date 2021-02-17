@@ -113,7 +113,7 @@ See some options for using cache with AWS (and also probably still check with Jo
 <img src="/Docs/cache3.png" width="1100"> 
 Reference: https://docs.aws.amazon.com/codebuild/latest/userguide/build-caching.html
 &nbsp;
-### I was able to somewhat circumvent giant image issues by utilzing multi-staging, and the other methods listed above, although my image can defnitely still be use further optimization and fine tuning. That being said, my build time and final image size was reduced by >50%... saving ~25 minutes in build time. Which is very helpful when testing an application.
+### I was able to somewhat circumvent giant image issues by utilzing multi-staging, and the other methods listed above, although my image could defnitely still be further optimizated and could use some more fine tuning. That being said, my build time and final image size was reduced by >50%... saving ~25 minutes in build time. Which is very helpful when testing an application.
 
 &nbsp;
 
