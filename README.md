@@ -76,7 +76,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 &nbsp;  
 
 ### 6. Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
-<img src="/Docs/dives.png" width="750">   
+<img src="/Docs/dive.png" width="750">   
 
 [photo cred](https://github.com/wagoodman/dive)
 &nbsp;  
