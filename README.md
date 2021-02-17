@@ -63,7 +63,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 
 ### 4. Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
-<img src="/Docs/clean_up.png" width="600">  
+<img src="/Docs/clean_up.png" width="750">  
 
 [photo cred](https://phoenixnap.com/kb/docker-image-size)
 &nbsp;  
