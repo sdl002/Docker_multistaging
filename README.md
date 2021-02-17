@@ -24,14 +24,13 @@ Multistaging with Docker to reduce complexity, size, and build time
 ### - A docker *image* is created by a *Dockerfile*, which is a set of instructions that act as a multi-layered filesystem.
 ### - When Docker runs the *image* it will produce one (or many) containers.
 &nbsp;  
-&nbsp; 
 ## Formula for Docker Image Size
 ### Image Size = Base Image + Essential Files + *Cruft* (a.k.a. random, unneeded files)
-<img src="/Docs/cruft.jpg" width="400">  
+<img src="/Docs/cruft.jpg" width="450">  
 
 [photo cred](https://slangit.com/meaning/cruft)  
-  
-### Reasons you should avoid large Docker images:
+&nbsp;  
+### Why you should avoid large Docker images:
 1. First and foremost: it’s best practices to maintain a small image size [Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 2. Large images increase image build time, including pushing/pulling, which can be detrimental to continuous integration and continuous development/deployment
 3. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
