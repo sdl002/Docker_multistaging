@@ -48,8 +48,9 @@ Multistaging with Docker to reduce complexity, size, and build time
 * Use .dockerignore
 * Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
 * Remove unnecessary dependencies with -–no-install-recommends flag
-* Use multi-stage
-* Some tools, like [dive](https://github.com/wagoodman/dive), can help find voluminous layers and look exactly at files that are being added in each layer 
+* Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
+* Something I recently started using: *multi-stage*
+
 
 # 3.  Docker multi-staging to the rescue (maybe)
 
