@@ -119,7 +119,10 @@ Real world example of a painfully large Docker Image:
 &nbsp;
 
 #### You can also use external images, and copy "FROM" them into your production image:
+<img src="/Docs/external.png" width="950">    
 
+[photo cred](https://docs.docker.com/develop/develop-images/multistage-build/)
+&nbsp;
 
 # 4. A note on AWS and its lack of cache (by default)
 
