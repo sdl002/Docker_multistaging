@@ -31,10 +31,11 @@ Multistaging with Docker to reduce complexity, size, and build time
 [photo cred](https://slangit.com/meaning/cruft)  
 &nbsp;  
 ### Why you should avoid large Docker images:
-1. First and foremost: it’s best practices to maintain a small image size [Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-2. Large images increase image build time, including pushing/pulling, which can be detrimental to continuous integration and continuous development/deployment
-3. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
-4. 
+1. First and foremost: it’s *best practice* to maintain a small image size [Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+2. Large images increase image build time (detrimental to continuous integration and continuous development/deployment)
+3. Large images also including pushing/pulling time (detrimental to continuous integration and continuous development/deployment)
+4. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
+5. 
 
 
 
