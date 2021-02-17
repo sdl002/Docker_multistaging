@@ -20,8 +20,12 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 [photo cred](https://learnk8s.io/blog/smaller-docker-images/) 
 
+
+These instructions act as a multi-layered filesystem in Docker. When a Docker user runs the images, it produces one or multiple containers
+
 * A docker *image* is the "base" of the docker container. 
-* A docker *image* is created by a *Dockerfile*, which is a set of instructions that are executed to make the docker *image*
+* A docker *image* is created by a *Dockerfile*, which is a set of instructions that act as a multi-layered filesystem in Docker.
+* When docker runs the *image* in produce one (or many) containers.
 &nbsp;  
 &nbsp; 
 ### Image Size = Base Image + Essential Files + *Cruft* (a.k.a. random, unneeded files)
@@ -30,8 +34,12 @@ Multistaging with Docker to reduce complexity, size, and build time
 [photo cred](https://slangit.com/meaning/cruft)  
   
 ### Reasons you should avoid large Docker images:
-1. Increased time of image building, which can be detrimental to continuous integration and continuous deployment
-2. 
+1. First and foremost: it’s best practices to maintain a small image size [Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+2. Large images increase image build time, including pushing/pulling, which can be detrimental to continuous integration and continuous development/deployment
+3. Reducing unnecesary dependencies will decrease both the complexity and the chances of vulnerability in your application
+4. 
+
+
 
 <a name="anchor2"></a>
 # 2. Ways to reduce the size of a docker image
@@ -50,7 +58,12 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 Docker image layers are sort of like git commits, they store the difference between the previous and current version. 
 
-However, layers use space, and the more layers that you have, the heavier your final image will be. Git repositories are similar,as the he size of your repo increases with the number of layers (Git has to store all the changes between commits).
+However, layers use space, and the more layers that you have, the heavier your final image will be. Git repositories are similar, as the size of your repo increases with the number of layers (Git has to store all the changes between commits).
+
+Keep this in mind
 
 
 
+# 4. A note on AWS and its lack of cache (by default)
+
+By default, AWS does not utilize cache. There are ways to turn it on (ask Josh :) ), but I have found that with a large build using multistaging can be useful.
