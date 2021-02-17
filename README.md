@@ -44,12 +44,12 @@ Multistaging with Docker to reduce complexity, size, and build time
 [photo cred](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7/)  
 &nbsp;  
 
-* smaller base image
+### 1. smaller base image
 <img src="/Docs/Alpine_logo.png" width="450">  
 
 &nbsp;  
 
-* fewer layers (combine commands, reduce use of "RUN")
+### 2. fewer layers (combine commands, reduce use of "RUN")
 <img src="/Docs/example_combine_commands.png" width="600">    
 
 [photo cred](https://www.cloudbees.com/blog/reduce-docker-image-size/)   
