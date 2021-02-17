@@ -111,4 +111,4 @@ See some options for using cache with AWS:
 <img src="/Docs/cache3.png" width="1100">   
 Reference: https://docs.aws.amazon.com/codebuild/latest/userguide/build-caching.html
 
-I was able to somewhat circumvent this with multi-staging (my image can still be ) but my buildtime and final image size was reduced by >50%... saving 25 minutes in build time. Which is useful when testing an application.
+I was able to somewhat circumvent this with multi-staging (my image can defnitely still be optimized) but my build time and final image size was reduced by >50%... saving 25 minutes in build time. Which is very helpful when testing an application.
