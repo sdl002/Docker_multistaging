@@ -55,25 +55,26 @@ Multistaging with Docker to reduce complexity, size, and build time
 [photo cred](https://www.cloudbees.com/blog/reduce-docker-image-size/)   
 &nbsp;  
 
-* Use .dockerignore
+### 3. Use .dockerignore
 <img src="/Docs/dockeringore.png" width="600">   
 
 [photo cred](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)   
 &nbsp;  
 
-* Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
+
+### 4. Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
 <img src="/Docs/clean_up.png" width="600">  
 
 [photo cred](https://phoenixnap.com/kb/docker-image-size)
 &nbsp;  
 
-* Remove unnecessary dependencies with -–no-install-recommends flag
+### 5. Remove unnecessary dependencies with -–no-install-recommends flag
 
 
-* Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
+### 6. Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
 
 
-* Something I recently started using: *multi-stage*, described a bit more below
+### 7. Something I recently started using: *multi-stage*, described a bit more below
 
 
 # 3.  Docker multi-staging to the rescue
