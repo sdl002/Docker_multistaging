@@ -30,6 +30,8 @@
 
 [photo cred](https://slangit.com/meaning/cruft)  
 &nbsp;  
+*For more detailed info on Docker, check out: https://github.com/sdl002/R_Docker_Intro*
+&nbsp;  
 ### Why you should avoid large Docker images:
 1. First and foremost: it’s *best practice* to maintain a small image size (see [Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/))
 2. Large images increase image build time (detrimental to continuous integration and continuous development/deployment)
