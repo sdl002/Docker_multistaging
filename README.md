@@ -89,9 +89,11 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 # 3.  Docker multi-staging to the rescue
 
+The FROM statement:
+When building a Docker image, each stage begins with a "FROM" instruction. Your Dockerfile can have multiple "FROM" statements, and you can chose what artifacts pass through to the next stage (removing potential *CRUFT*)
+
 When using multi-stage, you can include multiple stages in the same Dockerfile (as shown in the below example from [Docker Docs](https://docs.docker.com/develop/develop-images/multistage-build/))
 
-Each stage begins with a FROM instruction. The required artifact passes to the following stage, leaving behind content that you won’t need in the final image artifact.
 
 
 
