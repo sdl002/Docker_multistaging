@@ -75,7 +75,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 [photo cred](http://garywiz.github.io/chaperone/guide/chap-docker-smaller.html)
 &nbsp;  
 
-### 6. Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
+### 6. Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and show what files are being added in each layer 
 <img src="/Docs/dive.png" width="750">   
 
 [photo cred](https://github.com/wagoodman/dive)
