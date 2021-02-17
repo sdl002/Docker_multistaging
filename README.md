@@ -45,7 +45,7 @@ Multistaging with Docker to reduce complexity, size, and build time
 
 * smaller base image
 * fewer layers (combine commands, reduce use of "RUN")
-<img src="/Docs/example_combine_commands.png" width="450">  
+<img src="/Docs/example_combine_commands.png" width="600">  
 
 
 * Use .dockerignore
