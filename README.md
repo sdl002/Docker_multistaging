@@ -133,8 +133,8 @@ Reference: https://docs.aws.amazon.com/codebuild/latest/userguide/build-caching.
 &nbsp;
 ### I was able to somewhat circumvent giant image issues by utilzing multi-staging, and the other methods listed above, although my image could defnitely still be further optimizated and could use some more fine tuning. That being said, my build time and final image size was reduced by >50%... saving ~25 minutes in build time. Which is very helpful when testing an application.
 
-Current Dockerfile:
-
+Current Dockerfile:  
+ <img src="/Docs/Current.png" width="600">  
 
 &nbsp;
 
