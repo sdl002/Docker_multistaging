@@ -105,7 +105,7 @@
 
 # 4. A note on AWS and its lack of cache (by default)
 
-By default, AWS does not utilize cache. There are ways to turn it on (ask Josh :) ), but I have found that with a large build using multistaging can also be useful.
+By default, AWS does not utilize cache when buidling Docker images. There are ways to turn it on (ask Josh :) ), but I have found that with a large build using multistaging can also be useful.
 &nbsp;
 See some options for using cache with AWS:
 <img src="/Docs/cache1.png" width="1100">   
