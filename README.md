@@ -50,13 +50,13 @@ Multistaging with Docker to reduce complexity, size, and build time
 &nbsp;  
 
 ### 2. fewer layers (combine commands, reduce use of "RUN")
-<img src="/Docs/example_combine_commands.png" width="600">    
+<img src="/Docs/example_combine_commands.png" width="750">    
 
 [photo cred](https://www.cloudbees.com/blog/reduce-docker-image-size/)   
 &nbsp;  
 
 ### 3. Use .dockerignore
-<img src="/Docs/dockeringore.png" width="600">   
+<img src="/Docs/dockeringore.png" width="750">   
 
 [photo cred](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)   
 &nbsp;  
