@@ -1,7 +1,7 @@
 # Docker_multistaging
 Multistaging with Docker to reduce complexity, size, and build time
 
-<img src="/Docs/multistage.jpg" width="600">  
+<img src="/Docs/multistage.jpg" width="700">  
 
 [photo cred](https://www.youtube.com/watch?v=V9egJMknKtM)
 &nbsp;  
@@ -62,10 +62,17 @@ Multistaging with Docker to reduce complexity, size, and build time
 &nbsp;  
 
 * Add rm -rf /var/lib/apt/lists/* at the end of the apt-get -y (removes package manager cache)  
+<img src="/Docs/clean_up.png" width="600">  
 
+[photo cred](https://phoenixnap.com/kb/docker-image-size)
+&nbsp;  
 
 * Remove unnecessary dependencies with -–no-install-recommends flag
+
+
 * Some tools, like [dive](https://github.com/wagoodman/dive), can help find heavy layers and look exactly at files that are being added in each layer 
+
+
 * Something I recently started using: *multi-stage*, described a bit more below
 
 
