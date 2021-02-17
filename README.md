@@ -49,7 +49,7 @@ Real world example of a painfully large Docker Image:
 
 #### But *WHY* is it so large?
 
-#### 1. R - using a Rocker based image is large (I used rocker/verse, which preps for PDF generation, and is HUGE: )
+#### 1. R - using a Rocker based image is large (I used rocker/verse, which preps for PDF generation, and is HUGE: 3.69GB)
 #### 2. LaTeX - the tex-live-full library is HUGE (4.3 GB of disk space)
 #### 3. Did not clean up while building
 #### 4. Many "FROM" commands
